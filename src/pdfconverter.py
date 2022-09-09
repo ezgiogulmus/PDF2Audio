@@ -2,7 +2,6 @@ from PyPDF2 import PdfReader
 from gtts import gTTS
 import glob
 import os
-import boto3
 
 class ListenPDFs:
     def __init__(self, file_path, first_page=1, last_page=-1, language="en"):

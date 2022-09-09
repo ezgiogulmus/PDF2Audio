@@ -1,7 +1,6 @@
-from flask import Flask, render_template, request, flash, redirect, url_for
+from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory
 from werkzeug.utils import secure_filename
 import os
-from flask import send_from_directory
 from pdfconverter import ListenPDFs, empty_folder
 
 app = Flask(__name__)
